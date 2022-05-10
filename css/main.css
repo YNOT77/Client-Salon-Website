@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo img {
+  height: 100%;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .nav-book-button {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  height: 30px;
+}
+
+.navbar .mobile-menu {
+  width: 3em;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: left;
+  background-image: url("../images/mainImage.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero .left-column {
+  padding-top: 0;
+}
+
+.hero .left-column h1 {
+  font-size: 5em;
+  margin-top: 0;
+  color: white;
+  letter-spacing: .1em;
+}
+
+.hero .left-column p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hero .left-column .service-button {
+  background-color: black;
+  color: white;
+  margin-top: 2em;
+  padding: 1em 3em;
+}
+
+.hero .left-column-bottom {
+  padding-top: 0;
+}
+
+.hero .left-column-bottom .black-box {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 3em 0em;
+}
+
+.hero .left-column-bottom .black-box p {
+  text-transform: uppercase;
+  padding: 1.5em 2em;
+  display: block;
+}
+
+.hero .left-column-bottom .black-box p:first-child {
+  border-left: .3em solid white;
+}
+
+.hero .left-column-bottom .black-box p .bold-number {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.hero .left-column-bottom .black-box .book-button {
+  margin: 0 3em;
+  background-color: white;
+  padding: .5em 2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features-section .features-list {
+  text-align: center;
+}
+
+.features-section .features-list li {
+  margin-bottom: 2em;
+  padding: 1em 4em;
+}
+
+.features-section .features-list li img {
+  width: 8em;
+  height: 8em;
+}
+
+.video-section {
+  background-color: #F3F4F6;
+  text-align: center;
+}
+
+.video-section h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.video-section p {
+  padding: 0 3em;
+}
+
+.video-section .read-more-button {
+  color: white;
+  background-color: black;
+  padding: 1em 3em;
+  margin-top: 3em;
+}
+
+.video-section img {
+  width: 100%;
+}
+
+.profile-section ul {
+  text-align: center;
+}
+
+.profile-section ul li {
+  width: 80%;
+  margin: 0 auto 2em auto;
+}
+
+.profile-section ul li img {
+  width: 370px;
+}
+
+.profile-section ul li p {
+  color: white;
+  background-color: black;
+  width: 16em;
+  margin: 0 auto;
+  padding: .5em 0;
+  font-weight: bold;
+  position: relative;
+  top: -3em;
+}
+
+.profile-section ul li p span {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+.coupon-section span {
+  text-transform: uppercase;
+  margin-left: 2em;
+  margin-bottom: 1.5em;
+}
+
+.coupon-section p {
+  font-size: 2em;
+  margin-left: 1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+
+.coupon-section p span {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.coupon-section a {
+  background-color: black;
+  color: white;
+  padding: 1em 3em;
+  margin-left: 2em;
+}
+
+.coupon-section .container {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 36em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lookbook-section {
+  text-align: center;
+}
+
+.lookbook-section h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.lookbook-section .lookbook-list li {
+  margin-bottom: 5em;
+}
+
+.lookbook-section .lookbook-list img {
+  width: 75%;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  width: 66%;
+  background-color: #F3F4F6;
+  height: 100vh;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+nav li img {
+  width: 1em;
+  height: 1em;
+}
+
+.mobile-menu-exit {
+  float: right;
+  width: 10%;
+  cursor: pointer;
+  margin: 1em;
+}
+
+@media only screen and (min-width: 990px) {
+  .mobile-menu,
+  .mobile-menu-exit,
+  .drop-down-book-button {
+    display: none;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar .container .nav-book-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: unset;
+    height: auto;
+    width: auto;
+    padding: 0;
+    background-color: white;
+  }
+  .navbar nav ul.primary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+  .navbar nav li img {
+    width: 1em;
+    height: 1em;
+  }
+  .navbar nav a {
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+}
+
+@media only screen and (min-width: 1129px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  .features-section .features-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .features-section .features-list li {
+    padding: 0;
+    width: 31%;
+  }
+  .video-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .video-section .container .left-column,
+  .video-section .container .right-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 50%;
+  }
+  .video-section .container .left-column p,
+  .video-section .container .right-column p {
+    padding: 0;
+  }
+  .profile-section .container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .profile-section .container ul li {
+    width: 31%;
+    margin: 0;
+  }
+  .profile-section .container ul li img {
+    width: 100%;
+  }
+  .lookbook-section .lookbook-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: 350px;
+  }
+  .lookbook-section .lookbook-list .grid-1 {
+    grid-row: span 1;
+  }
+  .lookbook-section .lookbook-list .grid-3 {
+    grid-row: span 1;
+  }
+  .lookbook-section .lookbook-list .grid-5 {
+    grid-row: span 2;
+  }
+  .lookbook-section .lookbook-list .grid-2 {
+    grid-row: span 2;
+  }
+  .lookbook-section .lookbook-list .grid-4 {
+    grid-row: span 2;
+  }
+  .lookbook-section .lookbook-list .grid-6 {
+    grid-row: span 1;
+  }
+  .lookbook-section .lookbook-list li {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .lookbook-section .lookbook-list li img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
